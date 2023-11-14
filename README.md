@@ -12,6 +12,7 @@ The project can be started in RStudio by executing the file Taka_A1_A2_only.Rpro
 - **bin/** contains the R scripts to run the project. The number in front of the file name indicates the order in which the code should be executed, i.e. start with 01_PCA_script.R to get PCA associated figures, then 02_PCA_3D.R, 03_Heatmap.R, and 04_PCA_Heatmap_ClustBoxplot.R. 05_Wilcoxon_test.R contains statistical test functions used for the data. 
 
 - **data/** contains the data for the project. The counts files are contained in the **counts** folder. All the data associated with the project is saved and loaded from here.
+  
 - **sc_analysis/** contains bash code to use CellRanger to create rat custom reference and the alignments of downloaded data from the Gene Expression Omnibus (GEO) with accession GSE84133. marcadores_RevFinal.csv contains main markers to identify most important cell types in pancreas.
 - **works/** contains the posters associated with publication.
 
